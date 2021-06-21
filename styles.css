@@ -73,11 +73,11 @@ p{
 	padding-bottom: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 	.second-part{
 		display: block;
 		position: relative;
-		padding-bottom: 25%;
+		padding-bottom: 100%;
 	}
 	.card-1{
 		top: 50px;
@@ -94,10 +94,20 @@ p{
 	.card-1, .card-2, .card-3, .card-4{
 		left: 8%;
 		width: 90%;
+		padding-bottom: 50px;
 	}
 	.first-para{
-		width: 50%;
+		width: 100%;
 		position: relative;
-		right: 10%;
+		right: 35%;
+	}
+	.light-heading{
+		font-size: 100%;
+	}
+	.bold-heading{
+		font-size: 100%;
+	}
+	.attribution{
+		font-size: 50%;
 	}
 }
